@@ -23,9 +23,9 @@ const changeBoard = () => {
 };
 
 const sounds = [
-  "/sounds/grass1.ogg",
-  "/sounds/grass2.ogg",
-  "/sounds/grass3.ogg",
+  "sounds/grass1.ogg",
+  "sounds/grass2.ogg",
+  "sounds/grass3.ogg",
 ];
 
 const playRandomSound = () => {
@@ -150,7 +150,7 @@ h3 {
 }
 
 .cell {
-  background-image: url("/grass.png"); /* закрита клітинка */
+  background-image: url("grass.png"); /* закрита клітинка */
   background-position: center;
   background-size: contain;
   border: 2px solid #bfb68f;
@@ -167,7 +167,7 @@ h3 {
   }
 
   &.open {
-    background-image: url("/earth.png");
+    background-image: url("earth.png");
     background-color: #ddd; /* відкрита */
     color: #000; /* показуємо цифри */
   }
